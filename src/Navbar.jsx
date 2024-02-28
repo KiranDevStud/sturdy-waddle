@@ -13,6 +13,8 @@ function Navbar() {
           </div>
           <div className="navbar-links">
             <Link to="/home"><Button>Home</Button></Link>
+            <Link to="/resources"><Button>Resources</Button></Link>
+            <Link to="/about"><Button>About</Button></Link>
           </div>
         </nav>
       </Flex>

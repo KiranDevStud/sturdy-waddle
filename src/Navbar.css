@@ -1,4 +1,3 @@
-
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -19,10 +18,10 @@
   justify-content: flex-start;
   flex: 1;
 }
+
 .navbar-logo img {
   max-width: 300px;
   max-height: 82px;
-  /* Limit the maximum height of the logo */
   width: auto;
   height: auto;
 }
@@ -33,6 +32,7 @@
   justify-content: flex-end;
   flex-wrap: nowrap;
 }
+
 .navbar-links a {
   text-decoration: none;
   font-size: medium;
@@ -42,6 +42,24 @@
   color: #333;
   /* border-bottom: 2px solid #34a853; */
 }
+
 .navbar-links a:hover {
   color: #34a853;
+}
+
+.navbar button {
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  font-family: 'Space Grotesk', sans-serif;
+  color: #333;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #34a853;
+  color: #fff;
 }

@@ -3,7 +3,7 @@ import "./App.css";
 import Programmes from "./pages/Programmes/Programmes";
 //PGCourseList
 import PGCourseList from "./pages/Courses/PG/PGCourseList";
-import ComputerScience from "./pages/Courses/PG/ComputerScience";
+import ComputerScience from "./pages/Courses/PG/ComputerScience/ComputerScience.jsx";
 import PGChemistry from "./pages/Courses/PG/Chemistry";
 import PGMathematics from "./pages/Courses/PG/Mathematics";
 import MCom from "./pages/Courses/PG/MCom";

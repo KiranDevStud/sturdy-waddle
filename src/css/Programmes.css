@@ -1,19 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Gamja+Flower&family=Josefin+Sans:wght@600&family=Jost:wght@200;700&family=Kalam:wght@300;400;700&family=Lakki+Reddy&family=Merriweather&family=Permanent+Marker&family=Roboto+Condensed:wght@400;800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Sue+Ellen+Francisco&display=swap');
-.programme{
-    
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.programme {
+  position: relative;
 }
-.programme h1{
-    color: rgb(97, 50, 205);
-    margin-top: 0rch;
-    font-family: "Kalam", cursive;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10px;
 }
+
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+.programme h1 {
+  color: rgb(97, 50, 205);
+  margin-top: 0;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.live-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,7 +60,6 @@ ul {
 
 li {
   float: right;
-  
 }
 
 li a {
