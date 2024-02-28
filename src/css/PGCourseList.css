@@ -1,0 +1,12 @@
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.courses button{
+    text-align: center;
+    width: 170px;
+    max-width: 200px;
+    cursor: pointer;
+}
