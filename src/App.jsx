@@ -8,6 +8,7 @@ import PGChemistry from "./pages/Courses/PG/Chemistry";
 import PGMathematics from "./pages/Courses/PG/Mathematics";
 import MCom from "./pages/Courses/PG/MCom";
 import PGPhysics from "./pages/Courses/PG/Physics";
+import FirstYear from "./pages/Courses/PG/ComputerScience/FirstYear.jsx";
 //
 import Navbar from "./Navbar";
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/programmes/PG/Maths" element={<PGMathematics />} />
           <Route path="/programmes/PG/MCom" element={<MCom />} />
           <Route path="/programmes/PG/Physics" element={<PGPhysics />} />
+          <Route path="/programmes/PG/"
 
           <Route path="*" element={<h1>Not Found</h1>} />
         </Route>
