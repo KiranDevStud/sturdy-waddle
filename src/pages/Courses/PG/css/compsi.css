@@ -1,0 +1,5 @@
+.button-container {
+    display: flex; /* Arranges buttons horizontally */
+    flex-direction: column; /* Stacks buttons vertically */
+  }
+  
