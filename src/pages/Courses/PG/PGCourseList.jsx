@@ -4,7 +4,7 @@ import '../../../css/PGCourseList.css'
 function Subject() {
   return (
     <div className="courses">
-      <Link to="/programmes/PG/ComputerScience">
+      <Link to="/programmes/PG/ComputerScience/ComputerScience">
         <button>ComputerScience</button>
       </Link>
       <Link to="/programmes/PG/Chemistry">

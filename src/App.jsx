@@ -1,18 +1,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Programmes from "./pages/Programmes/Programmes";
-import ComputerScience from "./pages/Courses/PG/ComputerScience";
+import ComputerScience from "./pages/Courses/PG/ComputerScience/ComputerScience";
 import Navbar from "./Navbar";
 import PGCourseList from "./pages/Courses/PG/PGCourseList";
 import PGChemistry from "./pages/Courses/PG/Chemistry";
 import PGMathematics from "./pages/Courses/PG/Mathematics";
 import MCom from "./pages/Courses/PG/MCom";
 import PGPhysics from "./pages/Courses/PG/Physics";
-import FirstYear from "./pages/Courses/PG/FirstYear";
-import SecondYear from "./pages/Courses/PG/SecondYear";
-import ThirdYear from "./pages/Courses/PG/ThirdYear";
-import FourthYear from "./pages/Courses/PG/FourthYear";
-import FifthYear from "./pages/Courses/PG/FifthYear";
+import FirstYear from "./pages/Courses/PG/ComputerScience/FirstYear";
+import SecondYear from "./pages/Courses/PG/ComputerScience/SecondYear";
+import ThirdYear from "./pages/Courses/PG/ComputerScience/ThirdYear";
+import FourthYear from "./pages/Courses/PG/ComputerScience/FourthYear";
+import FifthYear from "./pages/Courses/PG/ComputerScience/FifthYear";
 
 function App() {
   return (
@@ -22,12 +22,12 @@ function App() {
         <Route path="/" element={<Programmes />} />
         <Route path="/home" element={<Programmes />} />
         <Route path="/programmes/PG" element={<PGCourseList />} />
-        <Route path="/programmes/PG/ComputerScience" element={<ComputerScience />} />
-        <Route path="/programmes/PG/FirstYear" element={<FirstYear />} />
-        <Route path="/programmes/PG/SecondYear" element={<SecondYear />}/>
-        <Route path="/programmes/PG/ThirdYear" element={<ThirdYear />}/>
-        <Route path="/programmes/PG/FourthYear" element={<FourthYear />}/>
-        <Route path="/programmes/PG/FifthYear" element={<FifthYear />}/>
+        <Route path="/programmes/PG/ComputerScience/ComputerScience" element={<ComputerScience />} />
+        <Route path="/programmes/PG/ComputerScience/FirstYear" element={<FirstYear />} />
+        <Route path="/programmes/PG/ComputerScience/SecondYear" element={<SecondYear />}/>
+        <Route path="/programmes/PG/ComputerScience/ThirdYear" element={<ThirdYear />}/>
+        <Route path="/programmes/PG/ComputerScience/FourthYear" element={<FourthYear />}/>
+        <Route path="/programmes/PG/ComputerScience/FifthYear" element={<FifthYear />}/>
         <Route path="/programmes/PG/Maths" element={<PGMathematics />} />
         <Route path="/programmes/PG/MCom" element={<MCom />} />
         <Route path="/programmes/PG/Physics" element={<PGPhysics />} />
