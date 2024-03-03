@@ -20,12 +20,13 @@
     min-height: 100vh;
   }
   
-  body{
-    background: url(../LoginForm/background.jpg)
-  no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  body {
+    background: url(../LoginForm/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  
 .wrapper h1{
     font-size: 36px;
     text-align: center;
