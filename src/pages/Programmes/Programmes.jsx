@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import '../../css/Programmes.css';
 
-function Subject() {
+function Programmes() {
   return (
     <div className="live-background">
       <div className="programme">
@@ -17,4 +17,4 @@ function Subject() {
 }
 
 
-export default Subject;
+export default Programmes;
