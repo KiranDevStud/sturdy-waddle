@@ -19,7 +19,7 @@ import LoginForm from "./pages/LoginForm/LoginForm";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+    <Navbar />
       <Routes>
         <Route path="/" element={<LoginForm />} />
         <Route path="/home" element={<Programmes />} />
