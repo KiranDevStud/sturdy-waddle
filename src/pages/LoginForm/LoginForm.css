@@ -8,10 +8,26 @@
   border-radius: 10px;
   padding: 30px 40px;
 }
-
-.wrapper h1 {
-  font-size: 36px;
-  text-align: center;
+.login {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  body{
+    background: url(../LoginForm/background.jpg)
+  no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
 }
 
 .wrapper .input-box {
@@ -102,3 +118,4 @@
 .register-link p a:hover {
   text-decoration: underline;
 }
+
