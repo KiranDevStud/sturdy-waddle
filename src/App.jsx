@@ -13,13 +13,15 @@ import SecondYear from "./pages/Courses/PG/ComputerScience/SecondYear";
 import ThirdYear from "./pages/Courses/PG/ComputerScience/ThirdYear";
 import FourthYear from "./pages/Courses/PG/ComputerScience/FourthYear";
 import FifthYear from "./pages/Courses/PG/ComputerScience/FifthYear";
+import LoginForm from "./pages/LoginForm/LoginForm";
+
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Programmes />} />
+        <Route path="/" element={<LoginForm />} />
         <Route path="/home" element={<Programmes />} />
         <Route path="/programmes/PG" element={<PGCourseList />} />
         <Route path="/programmes/PG/ComputerScience/ComputerScience" element={<ComputerScience />} />
@@ -31,6 +33,7 @@ function App() {
         <Route path="/programmes/PG/Maths" element={<PGMathematics />} />
         <Route path="/programmes/PG/MCom" element={<MCom />} />
         <Route path="/programmes/PG/Physics" element={<PGPhysics />} />
+        <Route path="/programmes/PG/Chemistry" element={<PGChemistry />} />
         <Route path="*" element={<h1>Not Found</h1>} />
 
 
